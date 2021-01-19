@@ -3,23 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Kitchen</title>
-  </head>
-
-	<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-  	<script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
-
+   </head>
+ 
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
   <body>
-    
-    <a-scene>
-    
-    <a-assets>
-      <img id="kitchen" src="kitchen vr.jpg"/>
-
-    </a-assets>
-   
-	<a-sky id="background" src="kitchen vr.jpg" theta=length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
-    
+ 
+      <a-scene>
+      <a-assets>
+        <img  id="sky" src="kitchen.jpg"/>
+      </a-assets>
+      <a-sky src="#sky"></a-sky>
     </a-scene>
-    
   </body>
 </html>
